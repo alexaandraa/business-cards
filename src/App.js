@@ -1,10 +1,12 @@
 import React from "react";
 import "reset-css";
 import Card from "./Card";
+import "./App.css";
 
 const savitri = {
   name: "Savitri Avtar",
-  title: "Kundalini Yoga Teacher"
+  title: "Kundalini Yoga Teacher",
+  website: "savitriavtar.com"
 };
 
 const alexandra = {
@@ -20,17 +22,9 @@ const zarina = {
 const cards = [savitri, alexandra, zarina];
 
 export const App = () => (
-  <div
-    style={{
-      padding: "2rem",
-      backgroundColor: "#319795",
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center"
-    }}
-  >
+  <div className="app">
     {cards.map(card => (
-      <Card name={card.name} title={card.title} />
+      <Card name={card.name} title={card.title} website={card.website} />
     ))}
   </div>
 );
