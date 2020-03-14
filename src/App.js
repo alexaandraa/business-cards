@@ -5,7 +5,7 @@ import "./App.css";
 
 const savitri = {
   name: "Savitri Avtar",
-  title: "Kundalini Yoga Teacher",
+  title: "Yoga Teacher",
   website: "savitriavtar.com"
 };
 
@@ -16,7 +16,7 @@ const alexandra = {
 
 const zarina = {
   name: "Alexandra Shikhverdieva",
-  title: "Community Operations Manager"
+  title: "Community Manager"
 };
 
 const cards = [savitri, alexandra, zarina];
